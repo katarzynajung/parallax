@@ -1,0 +1,130 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto 10px auto;
+}
+h1 ~ p{
+  display: inline;
+  padding: 0 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.logo-inside{
+  box-sizing: border-box;
+  height: 90px;
+}
+span{
+  display: inline-block;
+  background-color: #441a1a;
+  height: 2px;
+  width: 50px;
+  transform: translateY(-200%);
+}
+h2{
+  color: #ccc;
+  font-weight: 200;
+  font-size: 2.0em;
+  text-align: center;
+}
+h3{
+  color: #aaa;
+}
+figure{
+  margin: auto;
+}
+article{
+  padding: 50px 0;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+}
+img{
+  max-width: 100%;
+}
+
+.header-box{
+  position:relative;
+  height: 700px;
+  background-image: url("../images/table1.jpeg");
+  background-size: 100% 700px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.logo{
+  text-align:center;
+  box-sizing: border-box;
+  width: 400px;
+  height: 100px;
+  position:absolute;
+  top:30%;
+  left:50%;
+  margin-left: -200px;
+  margin-top:-100px;
+  border:5px solid #441a1a;
+  border-radius: 15px;
+  color: #441a1a;
+}
+.fore-coffee{
+  width: 90%;
+  height: 40%;
+  background-size: 100% 100%;
+  background-image: url("../images/coffee.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.coffee-gallery{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+figure > img{
+  width: 48%;
+  height: 50%;
+  box-sizing: border-box;
+  margin: 1%;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
+}
+figure{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.is-showing{
+  opacity: 1;
+  transform: translateX(0px);
+}
+.coffee-desc{
+  margin-top: 20px;
+}
+.item-desc{
+  float: right;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0;
+}
+
+.item-img{
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/coffee.jpeg');
+  opacity: 0.4;
+  background-size: 400px 800px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
